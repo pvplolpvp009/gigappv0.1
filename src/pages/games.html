@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .background {
+            background-image: url('https://pallavdemo.netlify.app/soon.webp'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        .menu-bar {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 15px;
+            position: relative;
+        }
+
+        .menu-bar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .menu-bar li {
+            margin: 0 15px;
+        }
+
+        .menu-bar a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .menu-bar a:hover {
+            text-decoration: underline;
+        }
+
+        .start-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007BFF;
+            border: none;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .start-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="menu-bar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#instructions">Instructions</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="background">
+        <div>
+            <h1>Welcome to the Game!</h1>
+            <p>Get ready for an exciting adventure!</p>
+            <button class="start-button" onclick="startGame()">Start Game</button>
+        </div>
+    </div>
+
+    <script>
+        function startGame() {
+            alert("Game Started!");
+            // Add your game start logic here
+        }
+    </script>
+
+</body>
+</html>
