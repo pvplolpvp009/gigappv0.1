@@ -101,7 +101,7 @@ const Wallet = () => {
                   Hello 👋🏻!
                   </h3>
                   <p className="pb-6 text-[#c3bfd2] text-[14px] text-center">
-My name is Kinshu and I developed this bot app. If you need to any kind of help or information then freely visit our community 😊<a href="https://t.me/pallavaempire" className="text-[#ffba4c]">Pallav Empire</a>
+If you need to any kind of help or information then freely visit our community 😊<a href="https://t.me/tongigacoin" className="text-[#ffba4c]">Pallav Empire</a>
                   </p>
 
  
